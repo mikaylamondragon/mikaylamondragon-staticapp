@@ -7,8 +7,19 @@
   <div class="row">
     <div class="col-lg-8 offset-lg-2 col-md-9 offset-md-2">
       <h1>A pirate's life is for me</h1>
-      <p>Hempen halter mizzenmast deadlights gaff pillage starboard jack lee Blimey draught. Man-of-war piracy black jack sutler Yellow Jack keel provost overhaul execution dock rigging. Log quarterdeck dead men tell no tales red ensign gibbet grog blossom bilge Nelsons folly code of conduct gunwalls.</p>
+      <p class = "main">Hempen halter mizzenmast deadlights gaff pillage starboard jack lee Blimey draught. Man-of-war piracy black jack sutler Yellow Jack keel provost overhaul execution dock rigging. Log quarterdeck dead men tell no tales red ensign gibbet grog blossom bilge Nelsons folly code of conduct gunwalls.</p>
+      <div class = "row">
+        <div class="col-lg-12 col-md-9">
+          {% for blog in blog.blogs %}
+          <h6> {{blog.date}}</h6>
+          <h3 class = "main">
+            <a href ="blog/{{blog.slug}}.html" >{{blog.headline}}</a>
+          </h3>
+          {% endfor %}
+        </div>
+      </div>
     </div>
-  </div>
+    
+  </div> 
 </div>
 {% endblock %}

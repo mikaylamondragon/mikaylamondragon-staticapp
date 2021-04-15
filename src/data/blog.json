@@ -39,18 +39,6 @@
           "value": "Crow's nest pillage Buccaneer jib yo-ho-ho sutler skysail red ensign ye grog. Case shot lookout wherry bilge rat run a rig dead men tell no tales port lugsail Jack Tar piracy. No prey, no pay heave to come about hempen halter handsomely to go on account brigantine lugger gangway case shot."
         }
       ]
-    },
-    {
-      "slug": "filename",
-      "headline": "Headline goes here",
-      "date": "Month DD, YYYY",
-      "image": "image.jpg",
-      "post": [
-        {
-          "type": "text",
-          "value": "Paragraphs of text."
-        }
-      ]
     }
   ]
 }
