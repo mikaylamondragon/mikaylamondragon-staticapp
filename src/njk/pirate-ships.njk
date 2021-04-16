@@ -1,9 +1,13 @@
 {% extends '_templates/base.njk' %}
 
+{% block page_title %}Ships{% endblock %}
+
+{% block page_description %}History of Pirate Ships.{% endblock %}
+
 {% block content %}
 <article class="container">
   <h1>Ships of the Golden Age of pirates</h1>
-  <p>Intro text here.</p>
+  <p>Hempen halter mizzenmast deadlights gaff pillage starboard jack lee Blimey draught. Man-of-war piracy black jack sutler Yellow Jack keel provost overhaul execution dock rigging. Log quarterdeck dead men tell no tales red ensign gibbet grog blossom bilge Nelsons folly code of conduct gunwalls.</p>
   <div class="row">
     {% for ship in pirates.ships %}
   <div class="col-sm-6 col-lg-4">
